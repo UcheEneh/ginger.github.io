@@ -1,14 +1,16 @@
 <html>
 <body>
 
-<form enctype="multipart/form-data" action="picture.php" method="post" name="frmIndex">
+<form enctype="multipart/form-data" action="welcome.php" method="post" name="frmIndex">
 				
+	<p>Name : <input type="text" name="name" pb-role="name"></p>
+	<p>Category : <input type="text" name="category" pb-role="category"></p>
 	<p>Date : <input type="text" name="date" pb-role="date"></p>
-        <!--<p>Image : <input type="file" id="file" name="fileToUpload" ></p> -->
+        <p>Image : <input type="file" id="file" name="fileToUpload" ></p>
         
+	<p><textarea maxlength="300" cols="50" rows="5" name="message"></textarea></p>
 	<p><input type="submit" value="Upload" pb-role="submit"></p>
 </form>
-
 
 
 </body>
